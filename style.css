@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+.centro {
+    width: 300px; /* Largura da div centralizada */
+    height: 200px; /* Altura da div centralizada */
+    text-align: center; /* Alinha o texto ao centro dentro da div */
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo semi-transparente */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para um efeito de profundidade */
+}
+
+.question {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra do texto */
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #a9e6ac;
+}
+
+
